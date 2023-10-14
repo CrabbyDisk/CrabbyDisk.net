@@ -10,14 +10,15 @@
 
 <article class="compare-card">
     <p>Value</p>
+    <button>x</button>
     <input bind:value={ammount} on:input={changeRatio} type="number" min="0" max="1000000" />
     <p>Price</p>
     <input bind:value={price} on:input={changeRatio} type="number" min="0" max="1000000" />
-    <p>{ratio} {unit}/$</p>
+    <p>{ratio} {unit} per $</p>
 </article>
 
 <style>
     .compare-card {
-        width: 400px;
+        margin: 0;
     }
 </style>
