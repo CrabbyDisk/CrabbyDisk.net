@@ -61,6 +61,7 @@
 
 <style>
     .add-card {
+        margin: 0;
     }
 
     section {

@@ -1,5 +1,5 @@
 <script>
-    import '@picocss/pico'
+    import '../app.scss'
 </script>
 
 <header>
@@ -8,8 +8,6 @@
             <li><strong>CrabbyDisk.net</strong></li>
             <li><a href="/">About me</a></li>
             <li><a href="/projects">Projects</a></li>
-        </ul>
-        <ul>
             <li><a href="/compare">Compare prices (pre-alpha)</a></li>
         </ul>
       </nav>
@@ -23,6 +21,3 @@
 <footer>
     <p>This is a footer, remind me that I need to put something here.</p>
 </footer>
-
-<style>
-</style>
