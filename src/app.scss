@@ -1,6 +1,11 @@
 $horizontal-spacing: 3rem;
 $vertical-spacing: 2rem;
+
 $corner-radius: 15px;
+
+$backgroud-primary:#1e1e2e;
+$background-secondary: #181825;
+$background-tetriary: #11111b;
 
 article {
     border-radius: $corner-radius;
@@ -11,7 +16,7 @@ article {
         margin-right: calc($horizontal-spacing * -1);
         margin-left: calc($horizontal-spacing * -1);
         padding: $vertical-spacing * 0.33 $vertical-spacing;
-        background-color: #11111b;
+        background-color: $background-tetriary;
         margin-top: $vertical-spacing;
         margin-bottom: calc($vertical-spacing * -1);
         border-bottom-right-radius: $corner-radius;
@@ -23,20 +28,20 @@ article {
 .grid {
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr
 }
 
 
 body {
     margin: 0;
-    background-color: #1e1e2e;
+    background-color: $backgroud-primary;
     color: rgb(178, 205, 238);
     font-size: 1.4em;
     font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
 main {
-    margin: 2% 10%
+    margin: 2% 10%;
 }
 
 hgroup,
